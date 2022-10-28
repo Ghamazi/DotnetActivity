@@ -1,0 +1,200 @@
+{
+	"info": {
+		"_postman_id": "9c6b259c-51a9-49e0-a86f-5d9e15efda77",
+		"name": "Product&Category",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22873040"
+	},
+	"item": [
+		{
+			"name": "GET Categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:51044/api/categories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "51044",
+					"path": [
+						"api",
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get PRoducts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:51044/api/Products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "51044",
+					"path": [
+						"api",
+						"Products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Product with ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:51044/api/Products/015f1eb8-aadb-4038-b0a4-08dab7b7b186",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "51044",
+					"path": [
+						"api",
+						"Products",
+						"015f1eb8-aadb-4038-b0a4-08dab7b7b186"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Filtered product with specific category id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:51044/api/Products?categoryid=d28888e9-2ba9-473a-a40f-e38cb54f9b35",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "51044",
+					"path": [
+						"api",
+						"Products"
+					],
+					"query": [
+						{
+							"key": "categoryid",
+							"value": "d28888e9-2ba9-473a-a40f-e38cb54f9b35"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Category",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\" : \"new11:50\"\n\n}"
+				},
+				"url": {
+					"raw": "http://localhost:51044/api/categories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "51044",
+					"path": [
+						"api",
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Product",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n  \"name\": \"new11:52\",\n  \"price\": 230,\n  \"quantity\": 110,\n  \"imgUrl\": \"url.png\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:51044/api/products/categories/0faac4f7-01c1-4ff2-b978-4b3df05ee1c5/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "51044",
+					"path": [
+						"api",
+						"products",
+						"categories",
+						"0faac4f7-01c1-4ff2-b978-4b3df05ee1c5",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Product with id",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n \"name\": \"newitem2023\",\n  \"price\": 23,\n  \"quantity\": 10,\n  \"imgUrl\": \"urlnewitem.png\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:51044/api/Products/015f1eb8-aadb-4038-b0a4-08dab7b7b186",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "51044",
+					"path": [
+						"api",
+						"Products",
+						"015f1eb8-aadb-4038-b0a4-08dab7b7b186"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
