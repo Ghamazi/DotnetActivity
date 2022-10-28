@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "3a8c4e6a-260b-42fd-b56e-923154a97957",
+		"_postman_id": "176667e4-e935-4093-80de-c37439ca4853",
 		"name": "Product&Category",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "22873040"
@@ -32,7 +32,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:51044/api/Products/b3e230ba-6a60-4eec-4a82-08dab7f17afa",
+					"raw": "http://localhost:51044/api/Products/",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -41,7 +41,7 @@
 					"path": [
 						"api",
 						"Products",
-						"b3e230ba-6a60-4eec-4a82-08dab7f17afa"
+						""
 					]
 				}
 			},
