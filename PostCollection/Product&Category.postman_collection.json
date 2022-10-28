@@ -53,7 +53,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:51044/api/Products/015f1eb8-aadb-4038-b0a4-08dab7b7b186",
+					"raw": "http://localhost:51044/api/Products/40ff5488-fdab-45b5-bc3a-14302d59869a",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -62,7 +62,7 @@
 					"path": [
 						"api",
 						"Products",
-						"015f1eb8-aadb-4038-b0a4-08dab7b7b186"
+						"40ff5488-fdab-45b5-bc3a-14302d59869a"
 					]
 				}
 			},
@@ -146,7 +146,7 @@
 					"raw": "{\n\n  \"name\": \"new11:52\",\n  \"price\": 230,\n  \"quantity\": 110,\n  \"imgUrl\": \"url.png\"\n}"
 				},
 				"url": {
-					"raw": "http://localhost:51044/api/products/categories/0faac4f7-01c1-4ff2-b978-4b3df05ee1c5/products",
+					"raw": "http://localhost:51044/api/products/categories/d38888e9-2ba9-473a-a40f-e38cb54f9b35/products",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -156,7 +156,7 @@
 						"api",
 						"products",
 						"categories",
-						"0faac4f7-01c1-4ff2-b978-4b3df05ee1c5",
+						"d38888e9-2ba9-473a-a40f-e38cb54f9b35",
 						"products"
 					]
 				}
@@ -182,7 +182,7 @@
 					"raw": "{\n \"name\": \"newitem2023\",\n  \"price\": 23,\n  \"quantity\": 10,\n  \"imgUrl\": \"urlnewitem.png\"\n}"
 				},
 				"url": {
-					"raw": "http://localhost:51044/api/Products/015f1eb8-aadb-4038-b0a4-08dab7b7b186",
+					"raw": "http://localhost:51044/api/Products/40ff5488-fdab-45b5-bc3a-14302d59869a",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -191,7 +191,7 @@
 					"path": [
 						"api",
 						"Products",
-						"015f1eb8-aadb-4038-b0a4-08dab7b7b186"
+						"40ff5488-fdab-45b5-bc3a-14302d59869a"
 					]
 				}
 			},
@@ -203,7 +203,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:51044/api/Products/b3e230ba-6a60-4eec-4a82-08dab7f17afa",
+					"raw": "http://localhost:51044/api/Products/2ee51fe3-edf2-4f91-8409-3eb25ce6ca51",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -212,7 +212,7 @@
 					"path": [
 						"api",
 						"Products",
-						"b3e230ba-6a60-4eec-4a82-08dab7f17afa"
+						"2ee51fe3-edf2-4f91-8409-3eb25ce6ca51"
 					]
 				}
 			},
