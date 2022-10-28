@@ -56,7 +56,7 @@ namespace DotnetActivity.Controllers
             return Ok(_mapper.Map<productmodel>(ProductFromRepo));
         }
         //where product had a forignkey so categoryid must be passed in the post action
-        //http://localhost:51044/api/Product/Category/CatgegoryId/Product
+        
         [HttpPost("Categories/{CategoryID}/Products")]
         public ActionResult<productmodel> CreateProduct(Guid CategoryID, ProductForCreation productcr)
         {
