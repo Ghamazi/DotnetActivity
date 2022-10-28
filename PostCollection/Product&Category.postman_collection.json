@@ -32,7 +32,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:51044/api/Products",
+					"raw": "http://localhost:51044/api/Products/b3e230ba-6a60-4eec-4a82-08dab7f17afa",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -40,7 +40,8 @@
 					"port": "51044",
 					"path": [
 						"api",
-						"Products"
+						"Products",
+						"b3e230ba-6a60-4eec-4a82-08dab7f17afa"
 					]
 				}
 			},
@@ -200,7 +201,20 @@
 			"name": "Delete Product",
 			"request": {
 				"method": "DELETE",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://localhost:51044/api/Products/b3e230ba-6a60-4eec-4a82-08dab7f17afa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "51044",
+					"path": [
+						"api",
+						"Products",
+						"b3e230ba-6a60-4eec-4a82-08dab7f17afa"
+					]
+				}
 			},
 			"response": []
 		}
