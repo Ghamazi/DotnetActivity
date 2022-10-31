@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "176667e4-e935-4093-80de-c37439ca4853",
+		"_postman_id": "5ca4c930-a101-422e-ac6a-63e31a8c1605",
 		"name": "Product&Category",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "22873040"
@@ -24,7 +24,50 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "GET Categories",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:51044/api/categories",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "51044",
+							"path": [
+								"api",
+								"categories"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 31 Oct 2022 09:44:56 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"8f7974d5-daa5-4b04-866f-089bb5859715\",\n        \"name\": \"Jane\",\n        \"productsUnderThisCategory\": []\n    },\n    {\n        \"id\": \"748d811e-6dbc-4623-b3f7-122be7af9612\",\n        \"name\": \"new11:50\",\n        \"productsUnderThisCategory\": []\n    },\n    {\n        \"id\": \"0ef3ecc0-dc95-43fb-adfa-1f39357325f3\",\n        \"name\": \"2;40\",\n        \"productsUnderThisCategory\": []\n    },\n    {\n        \"id\": \"fc50d224-7d22-43ad-969d-36b7ffa3ea11\",\n        \"name\": \"Jane\",\n        \"productsUnderThisCategory\": []\n    },\n    {\n        \"id\": \"0faac4f7-01c1-4ff2-b978-4b3df05ee1c5\",\n        \"name\": \"newone\",\n        \"productsUnderThisCategory\": []\n    },\n    {\n        \"id\": \"bfbfbb6d-52d2-4906-9feb-529f5a2c2ce6\",\n        \"name\": \"10:12\",\n        \"productsUnderThisCategory\": []\n    },\n    {\n        \"id\": \"a47451bd-c3d3-4ca8-90af-64d8eceaeb18\",\n        \"name\": \"new11:50\",\n        \"productsUnderThisCategory\": []\n    },\n    {\n        \"id\": \"d1b667af-44b5-4027-9e1d-69a469cea31c\",\n        \"name\": \"strissssssssssng\",\n        \"productsUnderThisCategory\": []\n    },\n    {\n        \"id\": \"93398d5c-eea3-40fa-901c-6aa0cf7d0595\",\n        \"name\": \"Jane\",\n        \"productsUnderThisCategory\": []\n    },\n    {\n        \"id\": \"8b241820-4b27-43cf-9749-74e36b7681b2\",\n        \"name\": \"Jane\",\n        \"productsUnderThisCategory\": []\n    },\n    {\n        \"id\": \"c7848bea-5c55-4f82-b6c9-9e09e3b9b65f\",\n        \"name\": \"Jane\",\n        \"productsUnderThisCategory\": []\n    },\n    {\n        \"id\": \"1a29bd20-e5eb-40cf-855c-adfaa2ea3ca2\",\n        \"name\": \"Jane\",\n        \"productsUnderThisCategory\": []\n    },\n    {\n        \"id\": \"d28888e9-2ba9-473a-a40f-e38cb54f9b35\",\n        \"name\": \"ITem1\",\n        \"productsUnderThisCategory\": []\n    },\n    {\n        \"id\": \"d38888e9-2ba9-473a-a40f-e38cb54f9b35\",\n        \"name\": \"ITem2\",\n        \"productsUnderThisCategory\": []\n    },\n    {\n        \"id\": \"d48888e9-2ba9-473a-a40f-e38cb54f9b35\",\n        \"name\": \"ITem3\",\n        \"productsUnderThisCategory\": []\n    },\n    {\n        \"id\": \"995f1ebf-6430-4a0f-91a8-ea9ad6123c32\",\n        \"name\": \"newone2:07\",\n        \"productsUnderThisCategory\": []\n    }\n]"
+				}
+			]
 		},
 		{
 			"name": "Get PRoducts",
@@ -45,7 +88,51 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "Get PRoducts",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:51044/api/Products/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "51044",
+							"path": [
+								"api",
+								"Products",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 31 Oct 2022 09:45:02 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"015f1eb8-aadb-4038-b0a4-08dab7b7b186\",\n        \"name\": \"newitem2023\",\n        \"price\": 23,\n        \"quantity\": 10,\n        \"imgUrl\": \"urlnewitem.png\",\n        \"categoryId\": \"d38888e9-2ba9-473a-a40f-e38cb54f9b35\"\n    },\n    {\n        \"id\": \"c92783e1-8300-4d98-b0a5-08dab7b7b186\",\n        \"name\": \"3:07Am\",\n        \"price\": 20,\n        \"quantity\": 30,\n        \"imgUrl\": \"done.png\",\n        \"categoryId\": \"d38888e9-2ba9-473a-a40f-e38cb54f9b35\"\n    },\n    {\n        \"id\": \"549921ae-33ac-42e9-b0a6-08dab7b7b186\",\n        \"name\": \"new2023\",\n        \"price\": 10,\n        \"quantity\": 20,\n        \"imgUrl\": \"new.new\",\n        \"categoryId\": \"d38888e9-2ba9-473a-a40f-e38cb54f9b35\"\n    },\n    {\n        \"id\": \"77bbdc01-9aaa-4d4c-25e4-08dab7ba8ab9\",\n        \"name\": \"3:28\",\n        \"price\": 3,\n        \"quantity\": 28,\n        \"imgUrl\": \"time\",\n        \"categoryId\": \"d48888e9-2ba9-473a-a40f-e38cb54f9b35\"\n    },\n    {\n        \"id\": \"2cdd3056-ce61-4c4e-9e10-08dab7ecb0d8\",\n        \"name\": \"9:26\",\n        \"price\": 9,\n        \"quantity\": 26,\n        \"imgUrl\": \"asdadastring\",\n        \"categoryId\": \"d48888e9-2ba9-473a-a40f-e38cb54f9b35\"\n    },\n    {\n        \"id\": \"68618328-7947-409a-5a35-08dab7ed6e0d\",\n        \"name\": \"9:32\",\n        \"price\": 3,\n        \"quantity\": 28,\n        \"imgUrl\": \"time\",\n        \"categoryId\": \"d28888e9-2ba9-473a-a40f-e38cb54f9b35\"\n    },\n    {\n        \"id\": \"2df75b22-47fd-48f7-3fd5-08dab7ee8f2d\",\n        \"name\": \"9:38\",\n        \"price\": 3,\n        \"quantity\": 28,\n        \"imgUrl\": \"time\",\n        \"categoryId\": \"d28888e9-2ba9-473a-a40f-e38cb54f9b35\"\n    },\n    {\n        \"id\": \"536e7a12-19c9-4f27-8614-08dab7eedc36\",\n        \"name\": \"9:41\",\n        \"price\": 3,\n        \"quantity\": 28,\n        \"imgUrl\": \"time\",\n        \"categoryId\": \"8f7974d5-daa5-4b04-866f-089bb5859715\"\n    },\n    {\n        \"id\": \"242ca6b4-b87a-48d6-8615-08dab7eedc36\",\n        \"name\": \"9:50\",\n        \"price\": 3,\n        \"quantity\": 28,\n        \"imgUrl\": \"time\",\n        \"categoryId\": \"8f7974d5-daa5-4b04-866f-089bb5859715\"\n    },\n    {\n        \"id\": \"dcac0e47-ea82-4262-4a80-08dab7f17afa\",\n        \"name\": \"10:00\",\n        \"price\": 3,\n        \"quantity\": 28,\n        \"imgUrl\": \"time\",\n        \"categoryId\": \"8f7974d5-daa5-4b04-866f-089bb5859715\"\n    },\n    {\n        \"id\": \"f7973ebe-593e-4a4f-4a81-08dab7f17afa\",\n        \"name\": \"10:00\",\n        \"price\": 3,\n        \"quantity\": 28,\n        \"imgUrl\": \"time\",\n        \"categoryId\": \"8f7974d5-daa5-4b04-866f-089bb5859715\"\n    },\n    {\n        \"id\": \"b3e230ba-6a60-4eec-4a82-08dab7f17afa\",\n        \"name\": \"10:00\",\n        \"price\": 3,\n        \"quantity\": 28,\n        \"imgUrl\": \"time\",\n        \"categoryId\": \"8f7974d5-daa5-4b04-866f-089bb5859715\"\n    },\n    {\n        \"id\": \"8ef21e3c-2ea6-407f-4a83-08dab7f17afa\",\n        \"name\": \"10:12\",\n        \"price\": 3,\n        \"quantity\": 28,\n        \"imgUrl\": \"time\",\n        \"categoryId\": \"8f7974d5-daa5-4b04-866f-089bb5859715\"\n    },\n    {\n        \"id\": \"17093473-fb12-48a6-4a84-08dab7f17afa\",\n        \"name\": \"10:04\",\n        \"price\": 3,\n        \"quantity\": 28,\n        \"imgUrl\": \"time\",\n        \"categoryId\": \"0ef3ecc0-dc95-43fb-adfa-1f39357325f3\"\n    },\n    {\n        \"id\": \"39b6ea97-834d-4df2-6dcf-08dab7fe618f\",\n        \"name\": \"subway\",\n        \"price\": 777777,\n        \"quantity\": 110,\n        \"imgUrl\": \"stafdasdadqwdadsaawqdring\",\n        \"categoryId\": \"d38888e9-2ba9-473a-a40f-e38cb54f9b35\"\n    },\n    {\n        \"id\": \"b2561360-47f3-4596-1242-08dab8012dbb\",\n        \"name\": \"new11:52\",\n        \"price\": 230,\n        \"quantity\": 110,\n        \"imgUrl\": \"url.png\",\n        \"categoryId\": \"0faac4f7-01c1-4ff2-b978-4b3df05ee1c5\"\n    },\n    {\n        \"id\": \"40ff5488-fdab-45b5-bc3a-14302d59869a\",\n        \"name\": \"newitem202s3\",\n        \"price\": 23,\n        \"quantity\": 10,\n        \"imgUrl\": \"urlnewitem.png\",\n        \"categoryId\": \"d28888e9-2ba9-473a-a40f-e38cb54f9b35\"\n    },\n    {\n        \"id\": \"2ee50fe3-edf2-4f91-8409-3eb25ce6ca51\",\n        \"name\": \"arcade\",\n        \"price\": 10,\n        \"quantity\": 2,\n        \"imgUrl\": \"IMg1.png\",\n        \"categoryId\": \"d38888e9-2ba9-473a-a40f-e38cb54f9b35\"\n    },\n    {\n        \"id\": \"2ee51fe3-edf2-4f91-8409-3eb25ce6ca51\",\n        \"name\": \"arcade\",\n        \"price\": 10,\n        \"quantity\": 2,\n        \"imgUrl\": \"IMg1.png\",\n        \"categoryId\": \"d48888e9-2ba9-473a-a40f-e38cb54f9b35\"\n    },\n    {\n        \"id\": \"2ee49fe3-edf2-4f91-8409-3eb25ce6ca51\",\n        \"name\": \"arcade\",\n        \"price\": 10,\n        \"quantity\": 2,\n        \"imgUrl\": \"IMg1.png\",\n        \"categoryId\": \"d28888e9-2ba9-473a-a40f-e38cb54f9b35\"\n    }\n]"
+				}
+			]
 		},
 		{
 			"name": "Get Product with ID",
@@ -66,7 +153,51 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "Get Product with ID",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:51044/api/Products/40ff5488-fdab-45b5-bc3a-14302d59869a",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "51044",
+							"path": [
+								"api",
+								"Products",
+								"40ff5488-fdab-45b5-bc3a-14302d59869a"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 31 Oct 2022 09:45:12 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"40ff5488-fdab-45b5-bc3a-14302d59869a\",\n    \"name\": \"newitem202s3\",\n    \"price\": 23,\n    \"quantity\": 10,\n    \"imgUrl\": \"urlnewitem.png\",\n    \"categoryId\": \"d28888e9-2ba9-473a-a40f-e38cb54f9b35\"\n}"
+				}
+			]
 		},
 		{
 			"name": "Get Filtered product with specific category id",
@@ -92,7 +223,56 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "Get Filtered product with specific category id",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:51044/api/Products?categoryid=d28888e9-2ba9-473a-a40f-e38cb54f9b35",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "51044",
+							"path": [
+								"api",
+								"Products"
+							],
+							"query": [
+								{
+									"key": "categoryid",
+									"value": "d28888e9-2ba9-473a-a40f-e38cb54f9b35"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 31 Oct 2022 09:45:22 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"68618328-7947-409a-5a35-08dab7ed6e0d\",\n        \"name\": \"9:32\",\n        \"price\": 3,\n        \"quantity\": 28,\n        \"imgUrl\": \"time\",\n        \"categoryId\": \"d28888e9-2ba9-473a-a40f-e38cb54f9b35\"\n    },\n    {\n        \"id\": \"2df75b22-47fd-48f7-3fd5-08dab7ee8f2d\",\n        \"name\": \"9:38\",\n        \"price\": 3,\n        \"quantity\": 28,\n        \"imgUrl\": \"time\",\n        \"categoryId\": \"d28888e9-2ba9-473a-a40f-e38cb54f9b35\"\n    },\n    {\n        \"id\": \"40ff5488-fdab-45b5-bc3a-14302d59869a\",\n        \"name\": \"newitem202s3\",\n        \"price\": 23,\n        \"quantity\": 10,\n        \"imgUrl\": \"urlnewitem.png\",\n        \"categoryId\": \"d28888e9-2ba9-473a-a40f-e38cb54f9b35\"\n    },\n    {\n        \"id\": \"2ee49fe3-edf2-4f91-8409-3eb25ce6ca51\",\n        \"name\": \"arcade\",\n        \"price\": 10,\n        \"quantity\": 2,\n        \"imgUrl\": \"IMg1.png\",\n        \"categoryId\": \"d28888e9-2ba9-473a-a40f-e38cb54f9b35\"\n    }\n]"
+				}
+			]
 		},
 		{
 			"name": "POST Category",
@@ -125,7 +305,67 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "POST Category",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\" : \"newitemnew\"\n\n}"
+						},
+						"url": {
+							"raw": "http://localhost:51044/api/categories",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "51044",
+							"path": [
+								"api",
+								"categories"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 31 Oct 2022 09:46:57 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Location",
+							"value": "http://localhost:51044/api/Categories/936ee579-1885-4720-b944-88023eaa9157"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"936ee579-1885-4720-b944-88023eaa9157\",\n    \"name\": \"newitemnew\",\n    \"productsUnderThisCategory\": []\n}"
+				}
+			]
 		},
 		{
 			"name": "POST Product",
@@ -161,7 +401,66 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "POST Product",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\n  \"name\": \"newproduct\",\n  \"price\": 231,\n  \"quantity\": 1210,\n  \"imgUrl\": \"newproducturl.png\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:51044/api/products/categories/d38888e9-2ba9-473a-a40f-e38cb54f9b35/products",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "51044",
+							"path": [
+								"api",
+								"products",
+								"categories",
+								"d38888e9-2ba9-473a-a40f-e38cb54f9b35",
+								"products"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 31 Oct 2022 09:47:26 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"5ce8b1f5-3f2d-4f07-b477-08dabb24eb46\",\n    \"name\": \"newproduct\",\n    \"price\": 231,\n    \"quantity\": 1210,\n    \"imgUrl\": \"newproducturl.png\",\n    \"categoryId\": \"d38888e9-2ba9-473a-a40f-e38cb54f9b35\"\n}"
+				}
+			]
 		},
 		{
 			"name": "PUT Product with id",
@@ -195,7 +494,64 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "PUT Product with id",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n \"name\": \"newitem2023\",\n  \"price\": 23000,\n  \"quantity\": 10,\n  \"imgUrl\": \"urlnewitem.png\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:51044/api/Products/40ff5488-fdab-45b5-bc3a-14302d59869a",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "51044",
+							"path": [
+								"api",
+								"Products",
+								"40ff5488-fdab-45b5-bc3a-14302d59869a"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 31 Oct 2022 09:47:54 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"40ff5488-fdab-45b5-bc3a-14302d59869a\",\n    \"name\": \"newitem2023\",\n    \"price\": 23000,\n    \"quantity\": 10,\n    \"imgUrl\": \"urlnewitem.png\",\n    \"category\": null,\n    \"categoryId\": \"d28888e9-2ba9-473a-a40f-e38cb54f9b35\"\n}"
+				}
+			]
 		},
 		{
 			"name": "Delete Product",
